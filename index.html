@@ -1,12 +1,748 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Seven7Moon — Performance Marketing, Google Ads, Analytics and Conversion Tracking specialist. Portfolio covering paid media, GA4, GTM, ecommerce tracking, call tracking and marketing analytics."
+  >
+
+  <meta
+    name="keywords"
+    content="Google Ads Specialist, Performance Marketing, GA4, Google Tag Manager, Conversion Tracking, PPC, Marketing Analytics, BigQuery, Looker Studio"
+  >
+
+  <meta name="author" content="Seven7Moon">
+
+  <title>Seven7Moon | Performance Marketing & Analytics</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is my first live site hosted on GitHub Pages.</p>
-</head>
-<body>
+
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+
+      <a href="#home" class="logo" aria-label="Go to homepage">
+        <span class="logo-mark">S7</span>
+        <span class="logo-text">Seven7Moon</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          type="button"
+          aria-label="Switch color theme"
+          title="Switch theme"
+        >
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Open navigation"
+          aria-expanded="false"
+          aria-controls="mobileNav"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-content reveal">
+          <div class="availability-badge">
+            <span class="status-dot"></span>
+            Available for freelance & remote projects
+          </div>
+
+          <p class="eyebrow">PERFORMANCE MARKETING · ANALYTICS · TRACKING</p>
+
+          <h1>
+            Hi, I'm <span class="gradient-text">Seven7Moon.</span>
+            <br>
+            I turn marketing data into measurable growth.
+          </h1>
+
+          <p class="hero-description">
+            I work across Google Ads, GA4, Google Tag Manager,
+            conversion tracking and marketing analytics to build
+            measurable campaigns, improve attribution and help
+            businesses make better decisions with their data.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              View My Work
+              <span aria-hidden="true">→</span>
+            </a>
+
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+
+          <div class="hero-focus">
+            <span>Google Ads</span>
+            <span>GA4</span>
+            <span>GTM</span>
+            <span>Analytics</span>
+            <span>Conversion Tracking</span>
+          </div>
+        </div>
+
+        <div class="hero-panel reveal">
+          <div class="hero-card">
+            <div class="card-top">
+              <div>
+                <span class="small-label">My Focus</span>
+                <h2>Performance + Measurement</h2>
+              </div>
+              <span class="pulse-indicator"></span>
+            </div>
+
+            <div class="metric-grid">
+              <div class="metric-card">
+                <span class="metric-number">01</span>
+                <p>Campaign Strategy</p>
+              </div>
+
+              <div class="metric-card">
+                <span class="metric-number">02</span>
+                <p>Conversion Tracking</p>
+              </div>
+
+              <div class="metric-card">
+                <span class="metric-number">03</span>
+                <p>Marketing Analytics</p>
+              </div>
+
+              <div class="metric-card">
+                <span class="metric-number">04</span>
+                <p>Optimization</p>
+              </div>
+            </div>
+
+            <div class="workflow-box">
+              <span class="small-label">Typical Workflow</span>
+              <div class="workflow-line">
+                <span>Traffic</span>
+                <span>→</span>
+                <span>Tracking</span>
+                <span>→</span>
+                <span>Analysis</span>
+                <span>→</span>
+                <span>Growth</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>
+            Marketing execution backed by
+            <span class="gradient-text">reliable measurement.</span>
+          </h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              I am a digital marketer and data analyst focused on
+              performance advertising, measurement and conversion
+              optimization.
+            </p>
+
+            <p>
+              My work often combines Google Ads campaign management
+              with GA4 and Google Tag Manager implementation, allowing
+              me to look beyond clicks and understand whether campaigns
+              actually generate leads, calls, registrations or sales.
+            </p>
+
+            <p>
+              I have worked across ecommerce, healthcare, local service
+              businesses and lead-generation accounts, including Search,
+              Performance Max, remarketing audiences, call attribution,
+              ecommerce purchase tracking and offline conversion workflows.
+            </p>
+
+            <p>
+              Alongside paid media, I continue developing my capabilities
+              in SQL, BigQuery, Python, statistics, Power BI and automation
+              so I can connect marketing execution with deeper business
+              analysis.
+            </p>
+          </div>
+
+          <div class="about-highlights reveal">
+            <article class="highlight-card">
+              <span class="highlight-number">01</span>
+              <div>
+                <h3>Performance Marketing</h3>
+                <p>
+                  Campaign structure, keyword strategy, bidding,
+                  audiences, creative optimization and budget efficiency.
+                </p>
+              </div>
+            </article>
+
+            <article class="highlight-card">
+              <span class="highlight-number">02</span>
+              <div>
+                <h3>Measurement</h3>
+                <p>
+                  GA4, GTM, ecommerce events, lead tracking,
+                  phone-call attribution and conversion diagnostics.
+                </p>
+              </div>
+            </article>
+
+            <article class="highlight-card">
+              <span class="highlight-number">03</span>
+              <div>
+                <h3>Data Analysis</h3>
+                <p>
+                  Turning advertising and customer data into
+                  actionable reports, optimization decisions and
+                  business insights.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SKILLS & TOOLS</p>
+          <h2>What I work with.</h2>
+          <p class="section-description">Filter the stack by area of expertise.</p>
+        </div>
+
+        <div class="filter-buttons reveal" id="skillFilters" aria-label="Filter skills">
+          <button class="filter-btn active" data-skill-filter="all">All</button>
+          <button class="filter-btn" data-skill-filter="advertising">Paid Media</button>
+          <button class="filter-btn" data-skill-filter="tracking">Tracking</button>
+          <button class="filter-btn" data-skill-filter="analytics">Analytics</button>
+          <button class="filter-btn" data-skill-filter="platform">Platforms</button>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <article class="skill-card reveal" data-skill-category="advertising">
+            <span class="skill-category">Advertising</span>
+            <h3>Google Ads</h3>
+            <p>Search, Performance Max, Display, Video, Demand Gen, campaign auditing and optimization.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="advertising">
+            <span class="skill-category">Advertising</span>
+            <h3>Keyword Strategy</h3>
+            <p>Intent-based keyword research, match types, negatives, search-term analysis and account structure.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="advertising">
+            <span class="skill-category">Advertising</span>
+            <h3>Responsive Search Ads</h3>
+            <p>Service-focused headlines, descriptions, CTA strategy and messaging aligned with search intent.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="advertising">
+            <span class="skill-category">Advertising</span>
+            <h3>Google Merchant Center</h3>
+            <p>Product feeds, shipping configuration, product data review and ecommerce advertising support.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="tracking">
+            <span class="skill-category">Tracking</span>
+            <h3>Google Tag Manager</h3>
+            <p>Event tracking, form tracking, ecommerce tags, custom dataLayer implementations and troubleshooting.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="tracking">
+            <span class="skill-category">Tracking</span>
+            <h3>GA4</h3>
+            <p>Events, conversions, audiences, attribution, ecommerce measurement and cross-domain tracking.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="tracking">
+            <span class="skill-category">Tracking</span>
+            <h3>Call Tracking</h3>
+            <p>Dynamic number insertion, source-level attribution, phone pools and lead-quality measurement.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="tracking">
+            <span class="skill-category">Tracking</span>
+            <h3>Offline Conversions</h3>
+            <p>GCLID workflows, lead qualification, CRM conversion stages and Google Ads imports.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="tracking">
+            <span class="skill-category">Tracking</span>
+            <h3>Consent Mode</h3>
+            <p>Consent Mode v2, cookie consent implementation planning and privacy-aware measurement.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="analytics">
+            <span class="skill-category">Analytics</span>
+            <h3>Marketing Analytics</h3>
+            <p>CPA, ROAS, conversion rate, CPC, funnel and campaign-performance analysis.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="analytics">
+            <span class="skill-category">Analytics</span>
+            <h3>Looker Studio</h3>
+            <p>Marketing dashboards, campaign reporting and performance visualization.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="analytics">
+            <span class="skill-category">Analytics</span>
+            <h3>Excel & Power Query</h3>
+            <p>Data transformation, pivot analysis, reporting and reusable marketing datasets.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="analytics">
+            <span class="skill-category">Analytics</span>
+            <h3>BigQuery & SQL</h3>
+            <p>Developing event-level GA4 analysis skills for scalable marketing-data analysis.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="analytics">
+            <span class="skill-category">Analytics</span>
+            <h3>Python</h3>
+            <p>Expanding into data analysis, statistics, automation and machine-learning workflows.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="platform">
+            <span class="skill-category">Platforms</span>
+            <h3>GoHighLevel</h3>
+            <p>Workflows, call tracking, source attribution, lead stages and conversion automation.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="platform">
+            <span class="skill-category">Platforms</span>
+            <h3>Shopify</h3>
+            <p>Ecommerce measurement, Google Ads integrations and product-event analysis.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="platform">
+            <span class="skill-category">Platforms</span>
+            <h3>NetSuite SuiteCommerce</h3>
+            <p>Ecommerce conversion tracking, registration events and purchase attribution.</p>
+          </article>
+
+          <article class="skill-card reveal" data-skill-category="platform">
+            <span class="skill-category">Platforms</span>
+            <h3>Webflow & WordPress</h3>
+            <p>Marketing tracking implementation across landing pages and lead-generation websites.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">SELECTED WORK</p>
+          <h2>
+            Projects across advertising,
+            <span class="gradient-text">tracking and analytics.</span>
+          </h2>
+        </div>
+
+        <div class="filter-buttons reveal" id="projectFilters" aria-label="Filter projects">
+          <button class="filter-btn active" data-project-filter="all">All</button>
+          <button class="filter-btn" data-project-filter="paid-media">Paid Media</button>
+          <button class="filter-btn" data-project-filter="tracking">Tracking</button>
+          <button class="filter-btn" data-project-filter="ecommerce">Ecommerce</button>
+          <button class="filter-btn" data-project-filter="analytics">Analytics</button>
+        </div>
+
+        <div class="projects-grid" id="projectsGrid">
+          <article class="project-card reveal" data-project-category="paid-media tracking">
+            <div class="project-top">
+              <span class="project-number">01</span>
+              <div class="project-tags">
+                <span>Google Ads</span>
+                <span>Healthcare</span>
+              </div>
+            </div>
+            <h3>Mental Health Lead Generation Campaigns</h3>
+            <p>
+              Managed and reviewed Search and Performance Max strategies for treatment-focused
+              lead-generation campaigns across multiple Florida markets.
+            </p>
+            <ul class="project-list">
+              <li>Search and PMax campaign analysis</li>
+              <li>Location and device performance review</li>
+              <li>Service-focused ad messaging</li>
+              <li>Call and insurance-verification conversion analysis</li>
+              <li>Campaign structure and asset-group recommendations</li>
+            </ul>
+            <div class="project-footer">
+              <span>Strategy</span>
+              <span>Optimization</span>
+              <span>Measurement</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project-category="tracking analytics">
+            <div class="project-top">
+              <span class="project-number">02</span>
+              <div class="project-tags">
+                <span>GTM</span>
+                <span>GHL</span>
+              </div>
+            </div>
+            <h3>Multi-Source Call Tracking Architecture</h3>
+            <p>
+              Designed a cleaner call-attribution structure for a local restoration business
+              to distinguish paid, organic, Google Business Profile and direct-call sources.
+            </p>
+            <ul class="project-list">
+              <li>Dynamic number pools</li>
+              <li>Source-specific call attribution</li>
+              <li>GHL workflow organization</li>
+              <li>GCLID capture planning</li>
+              <li>Qualified-lead and job-stage conversion design</li>
+            </ul>
+            <div class="project-footer">
+              <span>Call Tracking</span>
+              <span>CRM</span>
+              <span>Offline Conversion</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project-category="ecommerce tracking analytics">
+            <div class="project-top">
+              <span class="project-number">03</span>
+              <div class="project-tags">
+                <span>GA4</span>
+                <span>Ecommerce</span>
+              </div>
+            </div>
+            <h3>Ecommerce Purchase & Audience Measurement</h3>
+            <p>
+              Built and reviewed measurement strategies for ecommerce businesses using GA4,
+              Google Ads and customer-focused audience segmentation.
+            </p>
+            <ul class="project-list">
+              <li>Retail and wholesale purchase conversions</li>
+              <li>Cart and checkout abandonment audiences</li>
+              <li>Purchaser and customer-type segmentation</li>
+              <li>Cross-domain attribution review</li>
+              <li>Merchant Center and product-feed support</li>
+            </ul>
+            <div class="project-footer">
+              <span>GA4</span>
+              <span>Google Ads</span>
+              <span>Merchant Center</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project-category="paid-media">
+            <div class="project-top">
+              <span class="project-number">04</span>
+              <div class="project-tags">
+                <span>Search</span>
+                <span>Local Lead Gen</span>
+              </div>
+            </div>
+            <h3>Local Service Search Campaign Strategy</h3>
+            <p>
+              Developed Search campaign structures for local service businesses with tightly
+              organized services, locations, keywords and responsive search ads.
+            </p>
+            <ul class="project-list">
+              <li>Service-level ad groups</li>
+              <li>High-intent keyword research</li>
+              <li>Negative keyword development</li>
+              <li>Location targeting strategy</li>
+              <li>Conversion-oriented RSA creation</li>
+            </ul>
+            <div class="project-footer">
+              <span>Local PPC</span>
+              <span>Keywords</span>
+              <span>RSA</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project-category="tracking ecommerce">
+            <div class="project-top">
+              <span class="project-number">05</span>
+              <div class="project-tags">
+                <span>GA4</span>
+                <span>GTM</span>
+              </div>
+            </div>
+            <h3>Registration & Ecommerce Event Tracking</h3>
+            <p>
+              Troubleshot registration and ecommerce tracking where successful form submissions
+              did not follow expected thank-you-page behavior.
+            </p>
+            <ul class="project-list">
+              <li>dataLayer event validation</li>
+              <li>Patient and professional registration tracking</li>
+              <li>Custom GTM triggers</li>
+              <li>GA4 conversion configuration</li>
+              <li>Redirect and checkout behavior analysis</li>
+            </ul>
+            <div class="project-footer">
+              <span>DataLayer</span>
+              <span>Events</span>
+              <span>Debugging</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project-category="analytics paid-media">
+            <div class="project-top">
+              <span class="project-number">06</span>
+              <div class="project-tags">
+                <span>Reporting</span>
+                <span>Optimization</span>
+              </div>
+            </div>
+            <h3>Performance Analysis & Client Reporting</h3>
+            <p>
+              Turned campaign data into concise client-facing recommendations covering
+              efficiency, traffic quality, conversions and opportunities for optimization.
+            </p>
+            <ul class="project-list">
+              <li>ROAS and CPA analysis</li>
+              <li>Conversion-rate evaluation</li>
+              <li>Device and location segmentation</li>
+              <li>Search-term analysis</li>
+              <li>Action-oriented performance reporting</li>
+            </ul>
+            <div class="project-footer">
+              <span>ROAS</span>
+              <span>CPA</span>
+              <span>Reporting</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project-category="tracking analytics">
+            <div class="project-top">
+              <span class="project-number">07</span>
+              <div class="project-tags">
+                <span>Privacy</span>
+                <span>Attribution</span>
+              </div>
+            </div>
+            <h3>Cross-Domain & Privacy-Aware Measurement</h3>
+            <p>
+              Reviewed measurement setups involving multiple websites, audience sharing and
+              customer data with an emphasis on reliable attribution and responsible data handling.
+            </p>
+            <ul class="project-list">
+              <li>Cross-domain GA4 measurement</li>
+              <li>Audience governance review</li>
+              <li>Consent Mode v2 planning</li>
+              <li>Google Signals configuration</li>
+              <li>Duplicate tracking diagnostics</li>
+            </ul>
+            <div class="project-footer">
+              <span>Privacy</span>
+              <span>GA4</span>
+              <span>Attribution</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-project-category="ecommerce paid-media">
+            <div class="project-top">
+              <span class="project-number">08</span>
+              <div class="project-tags">
+                <span>PMax</span>
+                <span>Shopping</span>
+              </div>
+            </div>
+            <h3>Ecommerce Campaign Launch & Optimization</h3>
+            <p>
+              Supported campaign launches combining Performance Max, branded Search and non-brand
+              Search with product and audience considerations.
+            </p>
+            <ul class="project-list">
+              <li>PMax asset-group setup</li>
+              <li>Brand and non-brand Search structure</li>
+              <li>Product targeting decisions</li>
+              <li>Audience strategy</li>
+              <li>Early-stage performance optimization</li>
+            </ul>
+            <div class="project-footer">
+              <span>PMax</span>
+              <span>Search</span>
+              <span>Ecommerce</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section approach-section">
+      <div class="container">
+        <div class="approach-wrapper reveal">
+          <div class="approach-copy">
+            <p class="eyebrow">HOW I WORK</p>
+            <h2>
+              Campaigns should be optimized for
+              <span class="gradient-text">business outcomes.</span>
+            </h2>
+            <p>
+              I prefer connecting advertising decisions to measurable actions such as qualified
+              leads, calls, registrations, purchases, revenue and customer value—not just traffic.
+            </p>
+          </div>
+
+          <div class="approach-steps">
+            <div class="approach-step">
+              <span>01</span>
+              <div>
+                <h3>Understand</h3>
+                <p>Clarify the business goal and conversion funnel.</p>
+              </div>
+            </div>
+
+            <div class="approach-step">
+              <span>02</span>
+              <div>
+                <h3>Measure</h3>
+                <p>Make sure the important actions are tracked correctly.</p>
+              </div>
+            </div>
+
+            <div class="approach-step">
+              <span>03</span>
+              <div>
+                <h3>Analyze</h3>
+                <p>Find where performance is strong or inefficient.</p>
+              </div>
+            </div>
+
+            <div class="approach-step">
+              <span>04</span>
+              <div>
+                <h3>Optimize</h3>
+                <p>Improve campaigns using evidence rather than assumptions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">CONTACT</p>
+          <h2>
+            Have a marketing or tracking
+            <span class="gradient-text">problem to solve?</span>
+          </h2>
+          <p>
+            I'm open to opportunities involving Google Ads,
+            performance marketing, conversion tracking,
+            analytics and marketing-data projects.
+          </p>
+
+          <div class="contact-topics">
+            <span>Google Ads Management</span>
+            <span>Campaign Audits</span>
+            <span>GA4 / GTM Setup</span>
+            <span>Conversion Tracking</span>
+            <span>Marketing Analytics</span>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">What do you need help with?</label>
+            <select id="subject" name="subject" required>
+              <option value="">Choose a service</option>
+              <option value="Google Ads Project">Google Ads</option>
+              <option value="GA4 / GTM Tracking">GA4 / GTM Tracking</option>
+              <option value="Conversion Tracking">Conversion Tracking</option>
+              <option value="Marketing Analytics">Marketing Analytics</option>
+              <option value="Other Project">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me a little about your project..." required></textarea>
+          </div>
+
+          <button class="btn btn-primary form-submit" type="submit">
+            Send Message
+            <span aria-hidden="true">→</span>
+          </button>
+
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <a href="#home" class="footer-logo">Seven7Moon.</a>
+        <p>Performance Marketing · Analytics · Conversion Tracking</p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#home">Back to top ↑</a>
+        <p>© <span id="currentYear"></span> Seven7Moon</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
